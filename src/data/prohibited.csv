@@ -1,0 +1,70 @@
+Broad,Narrow,Keyword,Severity,Score
+Social Media,Personal,Facebook,Medium,55
+Social Media,Personal,Instagram,Medium,55
+Streaming,Audio,Spotify,Medium,45
+Gaming,Platform,Steam,High,70
+Messaging,Personal,WhatsApp,Medium,40
+Messaging,Personal,Telegram,Medium,40
+Shopping,Online,Amazon,Medium,35
+Shopping,Online,Flipkart,Medium,35
+Malware,Website,Phishing,Critical,98
+Device,Smartwatch,Smartwatch,Low,20
+Communication,Personal Chat,Chatting,Medium,45
+Communication,Personal Discussion,Discussions,Medium,45
+Breaks,Extended,Breaks,Medium,40
+Breaks,Frequent,Vaping,Medium,35
+Personal Tasks,Banking,Banking,Low,25
+Personal Tasks,Email,Email,Low,20
+Music,Distracting,Podcasts,Low,25
+Music,Explicit,Audiobooks,Low,30
+VPN,Personal,VPN,High,75
+Storage,External,Cloud,High,80
+Social Media,Personal,Reddit,Medium,55
+Streaming,Video,Twitch,Medium,50
+Gaming,Platform,Emulator,High,70
+Messaging,Personal,Signal,Medium,40
+Shopping,Online,Etsy,Medium,35
+Device,Smartwatch,Smartwatch,Low,20
+Communication,Personal Chat,Chatting,Medium,45
+Communication,Personal Discussion,Discussion,Medium,45
+Breaks,Extended,Socializing,Medium,40
+Breaks,Frequent,Vaping,Medium,35
+Personal Tasks,Banking,Coinbase,Low,25
+Personal Tasks,Email,Newsletters,Low,20
+Music,Distracting,Podcasts,Low,25
+Music,Explicit,Audiobooks,Low,30
+VPN,Personal,Tor,High,75
+Software,Unlicensed,Software,Critical,95
+Software,Non-approved,Adblock,High,85
+Software,Communication,Discord,Medium,40
+Software,Productivity,Trello,High,80
+Software,Productivity,Asana,High,80
+Software,Communication,Skype,Medium,40
+Software,Communication,Teams,Medium,40
+Software,Communication,Zoom,Medium,40
+Software,Productivity,Evernote,High,80
+Software,Productivity,Notion,High,80
+Social Media,Personal,Snapchat,Medium,55
+Streaming,Video,Hulu,Medium,50
+Gaming,Platform,PlayStation,High,70
+Gaming,Platform,Xbox,High,70
+Messaging,Personal,WeChat,Medium,40
+Shopping,Online,AliExpress,Medium,35
+Device,Mobile Phone,Candy,Medium,50
+Device,Smartwatch,Smartwatch,Low,20
+Device,Gaming Console,Switch,High,70
+Communication,Personal Chat,Chat,Medium,45
+Communication,Personal Discussion,Discussions,Medium,45
+Breaks,Extended,Breaks,Medium,40
+Breaks,Frequent,Calls,Medium,35
+Personal Tasks,Banking,Coinbase,Low,25
+Personal Tasks,Email,Emails,Low,20
+Music,Distracting,Music,Low,25
+Music,Explicit,Music,Low,30
+VPN,Personal,NordVPN,High,75
+Storage,External,Drive,High,80
+Software,Unlicensed,Photoshop,Critical,95
+Software,Non-approved,Adblock,High,85
+Software,Communication,Teams,Medium,40
+Software,Productivity,Jira,High,80
+Software,Productivity,Confluence,High,80
