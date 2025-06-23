@@ -1,0 +1,1349 @@
+{
+  "allowed": [
+    {
+      "broad": "Code Editor",
+      "narrow": "IDE",
+      "keyword": "VS Code",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "IDE",
+      "keyword": "IntelliJ",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "Text Editor",
+      "keyword": "Sublime Text",
+      "severity": "Medium",
+      "score": 80
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "Text Editor",
+      "keyword": "Atom",
+      "severity": "Medium",
+      "score": 75
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "Text Editor",
+      "keyword": "Notepad++",
+      "severity": "Low",
+      "score": 60
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "Terminal",
+      "keyword": "Vim",
+      "severity": "Medium",
+      "score": 70
+    },
+    {
+      "broad": "Code Editor",
+      "narrow": "Terminal",
+      "keyword": "Emacs",
+      "severity": "Medium",
+      "score": 70
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Shell",
+      "keyword": "Bash",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Shell",
+      "keyword": "Zsh",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Shell",
+      "keyword": "PowerShell",
+      "severity": "Medium",
+      "score": 85
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Utility",
+      "keyword": "iTerm2",
+      "severity": "Medium",
+      "score": 85
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Utility",
+      "keyword": "Windows Terminal",
+      "severity": "Medium",
+      "score": 80
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Utility",
+      "keyword": "Cmder",
+      "severity": "Low",
+      "score": 70
+    },
+    {
+      "broad": "Terminal",
+      "narrow": "Utility",
+      "keyword": "Alacritty",
+      "severity": "Low",
+      "score": 70
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "System",
+      "keyword": "Git",
+      "severity": "High",
+      "score": 98
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "Review",
+      "keyword": "Pull Request Reviews",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "Platform",
+      "keyword": "GitHub",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "Platform",
+      "keyword": "GitLab",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "Platform",
+      "keyword": "Bitbucket",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "System",
+      "keyword": "Mercurial",
+      "severity": "Low",
+      "score": 50
+    },
+    {
+      "broad": "Version Control",
+      "narrow": "System",
+      "keyword": "SVN",
+      "severity": "Low",
+      "score": 50
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Containerization",
+      "keyword": "Docker",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Tools",
+      "narrow": "API Testing",
+      "keyword": "Postman",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "API Specification",
+      "keyword": "Swagger",
+      "severity": "Medium",
+      "score": 80
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Database Client",
+      "keyword": "MySQL Workbench",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Database Client",
+      "keyword": "pgAdmin",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Database Client",
+      "keyword": "MongoDB Compass",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Browser Dev",
+      "keyword": "Console",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Browser Dev",
+      "keyword": "Network",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Browser Dev",
+      "keyword": "Elements",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Browser Dev",
+      "keyword": "Performance",
+      "severity": "Medium",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "CI/CD",
+      "keyword": "Jenkins",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "CI/CD",
+      "keyword": "GitHub Actions",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "CI/CD",
+      "keyword": "GitLab CI",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Cloud Platform",
+      "keyword": "AWS Console",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Cloud Platform",
+      "keyword": "Azure Portal",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Cloud Platform",
+      "keyword": "Google Cloud Console",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Testing Framework",
+      "keyword": "Jest",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Testing Framework",
+      "keyword": "Mocha",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Testing Framework",
+      "keyword": "Selenium",
+      "severity": "Medium",
+      "score": 80
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Testing Framework",
+      "keyword": "Cypress",
+      "severity": "Medium",
+      "score": 80
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Package Manager",
+      "keyword": "npm",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Tools",
+      "narrow": "Package Manager",
+      "keyword": "Yarn",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Communication",
+      "narrow": "Collaboration",
+      "keyword": "Slack",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Communication",
+      "narrow": "Collaboration",
+      "keyword": "Microsoft Teams",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Documentation",
+      "narrow": "Wiki",
+      "keyword": "Confluence",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Documentation",
+      "narrow": "Markdown",
+      "keyword": "Markdown editor",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Agile",
+      "keyword": "Scrum",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Agile",
+      "keyword": "Kanban",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Code Review",
+      "keyword": "Pull Requests",
+      "severity": "High",
+      "score": 98
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Debugging",
+      "keyword": "Breakpoints",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Debugging",
+      "keyword": "Logs",
+      "severity": "High",
+      "score": 95
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Deployment",
+      "keyword": "Staging environment",
+      "severity": "High",
+      "score": 90
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Monitoring",
+      "keyword": "Grafana",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Monitoring",
+      "keyword": "Prometheus",
+      "severity": "High",
+      "score": 85
+    },
+    {
+      "broad": "Workflow",
+      "narrow": "Issue Tracking",
+      "keyword": "JIRA",
+      "severity": "High",
+      "score": 95
+    }
+  ],
+  "prohibited": [],
+  "rules": [
+    {
+      "type": "allowed",
+      "category": "Internet",
+      "subcategory": "General Website",
+      "item": "youtube.com",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Unless specifically prohibited, general internet browsing, including access to YouTube, is generally permitted for developers for research, tutorials, and occasional breaks. It's unlikely to pose a direct security threat or significantly impact productivity if used reasonably.",
+      "examples": [
+        "Watching a coding tutorial on YouTube",
+        "Listening to music while coding"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Communication",
+      "subcategory": "Social Media/Collaboration Platform",
+      "item": "Threads",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Unless explicitly prohibited, developers are generally allowed to use communication platforms like Threads. Its relevance depends on the project and team communication practices. Lack of specific rules implies implicit permission.",
+      "examples": [
+        "Sharing relevant articles or industry news",
+        "Participating in team discussions on a specific topic"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "General",
+      "subcategory": "Branding",
+      "item": "Meta",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item 'Meta' is not explicitly prohibited for developers. The absence of a rule against it suggests it's generally allowed, unless used in a context that violates other rules (e.g., misrepresenting the company, violating user privacy). Its mere presence in a screenshot doesn't automatically constitute a violation.",
+      "examples": [
+        "Screenshot of a Meta product page",
+        "Screenshot showing Meta's logo on a website"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Social Media",
+      "subcategory": "General Use",
+      "item": "instagram",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Unless specifically prohibited, general social media use is usually allowed, especially if outside of work hours or on personal devices. Since the rules for the developer role do not explicitly forbid Instagram, it is classified as allowed. However, excessive use during work hours or sharing confidential information would be a violation of general work policies.",
+      "examples": [
+        "Using Instagram on a lunch break.",
+        "Checking Instagram after work hours."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Development Tool",
+      "item": "game",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The absence of explicit prohibition in the 'developer' role rules implies allowance. A 'game' could be a development tool, a project being worked on, or a reference for development purposes. While it's not explicitly encouraged, lacking a rule against it defaults to permitted.",
+      "examples": [
+        "Developer using a game engine for a project",
+        "Developer playing a game for inspiration on level design"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "General Social Media",
+      "item": "instagram.com",
+      "severity": "Medium",
+      "score": 50,
+      "rationale": "Access to social media websites like Instagram is generally restricted for developers during work hours to minimize distractions and maintain focus on tasks. It can also be a security risk, potentially leading to phishing attacks or data leaks if accessed through unsecured networks or personal accounts on company devices.",
+      "examples": [
+        "Checking Instagram during coding sprints",
+        "Posting work-related information on personal Instagram account"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Internet Resource",
+      "subcategory": "Website",
+      "item": "google.com",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Access to google.com is generally considered essential for developers for research, documentation, and general problem-solving. Unless specifically prohibited, it should be allowed.",
+      "examples": [
+        "Searching for documentation on libraries",
+        "Looking up error messages encountered during development"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "productivity",
+      "subcategory": "typing_practice",
+      "item": "monkeytype.com",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Monkeytype.com is a website for practicing typing, which can improve a developer's efficiency. It does not pose any security risks or violate any common development practices. Since the item is not explicitly prohibited, it can be considered allowed. The severity is low because it has a minimal impact on security or productivity negatively.",
+      "examples": [
+        "Improving typing speed for coding",
+        "Practicing touch typing to reduce errors"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Application",
+      "subcategory": "Unspecified Software",
+      "item": "Instagram Lite",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Instagram Lite is not explicitly allowed within the defined rules for the 'developer' role. Its presence could indicate unauthorized software usage or a deviation from the approved application list, potentially introducing security risks or inefficiencies.",
+      "examples": [
+        "Presence of games on developer machines.",
+        "Installation of unauthorized social media applications."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Account Security",
+      "subcategory": "Unauthorized Access",
+      "item": "Meta Verified",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The 'Meta Verified' item is not present in the allowed rules for the 'developer' role. Its presence suggests unauthorized access or modification of the account, which could compromise security and integrity. Developers should only have access to features explicitly granted to them.",
+      "examples": [
+        "A developer enabling 'Meta Verified' on a test account without permission.",
+        "A developer using 'Meta Verified' features in a development environment without explicit authorization."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "Personal Use",
+      "item": "Instagram",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Generally, personal social media use is discouraged during work hours for developers as it can lead to distractions and reduced productivity. The absence of specific rules doesn't imply permission.",
+      "examples": [
+        "Browsing Instagram feed during development time",
+        "Posting personal updates on Instagram while on the clock"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "Frontend Styling",
+      "item": "index.css",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "CSS files are standard components of frontend development. While not explicitly listed, they fall under the general purview of developer responsibilities for creating and maintaining the user interface. The absence from the rules doesn't necessitate prohibition; it implies implicit allowance.",
+      "examples": [
+        "Developing website styling",
+        "Modifying the visual appearance of a component"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "File",
+      "subcategory": "JavaScript File",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.js is a common entry point for JavaScript applications, and developers typically have access to create and modify such files. Its absence from existing rules likely indicates a default-allow stance rather than an explicit prohibition.",
+      "examples": [
+        "Creating a new feature",
+        "Modifying application startup"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Programming Language",
+      "item": "Python",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Python is a general-purpose programming language widely used in software development, scripting, and data analysis. Its presence in a screenshot doesn't inherently violate any common development rules, especially if it is used for scripting, tooling, or testing. Unless specifically prohibited by the developer's role or project rules, its usage should be considered allowed. The severity is low as it does not automatically indicate a security issue or a compliance violation.",
+      "examples": [
+        "Using Python for automating deployment tasks",
+        "Using Python for data analysis and report generation"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Build Tools",
+      "item": "Electron-forge",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Electron-forge is a build tool specifically designed for Electron applications, which falls under the developer's purview. While not explicitly listed in a ruleset, its function aligns with typical developer responsibilities and tool usage. Absence of a rule doesn't equate to prohibition.",
+      "examples": [
+        "Packaging an Electron application for distribution",
+        "Automating the build process"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "HTML Files",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.html is typically the main entry point for a website and is essential for development. Unless there are specific rules prohibiting all HTML files (which is unlikely for a developer role), it should be allowed.",
+      "examples": [
+        "Creating a new webpage",
+        "Modifying the homepage"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Development Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Screen monitoring software can be useful for developers to debug and understand application behavior. Its absence in the current rules doesn't imply prohibition, and it generally falls under permissible software used for development tasks.",
+      "examples": [
+        "Debugging applications",
+        "Analyzing performance bottlenecks"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Development Environment",
+      "subcategory": "Dependencies",
+      "item": "node_modules",
+      "severity": "High",
+      "score": 80,
+      "rationale": "The `node_modules` directory typically contains a large number of dependencies and should not be committed to version control. It increases repository size, slows down cloning and building, and can lead to inconsistencies across different development environments. Developers should use a package manager (e.g., npm, yarn) to manage and install dependencies based on the `package.json` and `package-lock.json` or `yarn.lock` files.",
+      "examples": [
+        "Accidental inclusion of node_modules directory in a Git repository.",
+        "Sharing a project without specifying dependencies, forcing users to guess which versions to install."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "AI Assistants",
+      "item": "Gemini",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "As Gemini is an AI assistant developed by Google, its usage by developers should be allowed, as it can potentially increase productivity and improve code quality. However, the developer must follow all legal guidelines and ensure data privacy while using the assistant. Absence in current rule list suggests no restrictions, but best practices should be considered.",
+      "examples": [
+        "Using Gemini to generate code snippets for common tasks",
+        "Utilizing Gemini to debug code and identify potential errors"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Code Formatting",
+      "item": "Prettier",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Prettier is a code formatter that helps maintain consistent code style across a project. While its use isn't explicitly mandated in the current developer rules, it's generally considered a best practice and enhances code readability and maintainability. Absence in the rules doesn't prohibit its usage, especially given its benefits.",
+      "examples": [
+        "Using Prettier to format JavaScript code before committing.",
+        "Configuring Prettier with a pre-commit hook to automatically format code."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development Tools",
+      "subcategory": "Frameworks and Libraries",
+      "item": "Electron",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Electron is a framework for building cross-platform desktop applications with web technologies. Its use by a developer is generally permissible unless specifically restricted by project requirements or security policies. The absence of a rule explicitly prohibiting Electron suggests its use is allowed, subject to standard development practices and security considerations.",
+      "examples": [
+        "Developing a cross-platform desktop app for internal use.",
+        "Building a debugging tool with a native UI."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "AI Model",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The item 'Gemma' is not explicitly prohibited by the current rules for the 'developer' role. Assuming 'Gemma' refers to a model or tool that could potentially be useful for software development (e.g., an AI model), and absent specific prohibitions, developers would generally be allowed to experiment with it. Severity is low because using it might or might not improve their productivity, but there is no explicit risk based on the available information.",
+      "examples": [
+        "Experimenting with a new AI model to generate code",
+        "Using an AI model to assist with debugging"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Development Tools",
+      "item": "Electron",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Electron is a framework for building cross-platform desktop applications with web technologies. Its presence in a screenshot does not inherently violate general developer rules unless explicitly prohibited. The severity is low because its mere presence isn't harmful. Whether it's allowed depends on the specific project and its requirements, which is outside the scope of the general developer role. If specific company policies restricted certain frameworks the severity may be higher.",
+      "examples": [
+        "A developer using Electron to build a desktop application.",
+        "Electron present in a build process or CI/CD pipeline configuration."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Web Development",
+      "item": "CSS",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "CSS is a fundamental technology for web development and is generally allowed for developers unless specifically restricted by project requirements or security policies. Its absence in current rules doesn't imply prohibition, but rather potential omission.",
+      "examples": [
+        "Using CSS to style website elements",
+        "Applying CSS frameworks like Bootstrap or Tailwind"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Build Tools",
+      "item": "Electron-forge",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Electron-forge is a popular build tool for Electron applications. Unless explicitly prohibited, developers should be able to use tools that aid in the development process.",
+      "examples": [
+        "Building an Electron app for multiple platforms",
+        "Packaging an Electron app for distribution"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Front-End Development",
+      "item": "HTML",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "HTML is a fundamental technology for web development and is generally expected to be used by developers. The fact that it's not explicitly listed in the current rules doesn't prohibit its use, as it's a basic building block.",
+      "examples": [
+        "Creating website structure",
+        "Developing user interfaces"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "programming_language",
+      "subcategory": "scripting",
+      "item": "JavaScript",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "JavaScript is a widely used language for front-end and back-end development. While not explicitly mentioned in the rules, it's generally understood to be permissible for a developer role, unless specific frameworks or languages are explicitly prohibited. Its absence in the current rules does not automatically prohibit its use. A higher severity would be appropriate if security vulnerabilities or specific risks associated with the code were detected.",
+      "examples": [
+        "Implementing user interfaces",
+        "Developing server-side logic with Node.js"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Code Security",
+      "subcategory": "Dependency Management",
+      "item": "node_modules",
+      "severity": "High",
+      "score": 80,
+      "rationale": "Including `node_modules` in a codebase deployed to a production environment or shared with others introduces significant security risks. It drastically increases the codebase size, makes it difficult to manage dependencies effectively, and exposes the application to vulnerabilities present in those dependencies. It's best practice to rely on package managers to install dependencies during deployment, based on a manifest file (package.json or similar).",
+      "examples": [
+        "Accidental inclusion of secrets/API keys",
+        "Exposure to vulnerabilities in outdated or malicious packages"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development Tools",
+      "subcategory": "AI Assistants",
+      "item": "Gemini",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Since the role is 'developer' and there is no rule against using AI assistants like Gemini, its use is generally permissible. Gemini could potentially aid in coding, debugging, or documentation. However, reliance on such tools should be balanced with the developer's own expertise and understanding.",
+      "examples": [
+        "Using Gemini to generate boilerplate code.",
+        "Asking Gemini for help understanding a specific API."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Development Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Without specific rules prohibiting its use, a screen monitoring tool is generally permissible for a developer, potentially aiding in debugging or performance analysis. Assuming it's not for nefarious purposes or violating privacy policies.",
+      "examples": [
+        "Debugging performance issues",
+        "Monitoring resource usage during testing"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Programming Languages",
+      "item": "Python",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Python is a general-purpose programming language commonly used in software development. Its absence from the current rules doesn't automatically prohibit its use, especially if it's beneficial for completing tasks within the developer role. Unless explicitly prohibited, or if using it violates other existing rules, it is generally allowed, although it may be subject to review or approval based on specific project requirements or organizational standards.",
+      "examples": [
+        "Writing scripts for automation",
+        "Developing web applications"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "AI Model",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The item 'Gemma' (likely referring to the Google AI model) is not explicitly prohibited for developers. Its allowance depends on the project context and the developer's responsibilities. Without specific rules barring its use, it's considered allowed, although potentially subject to further scrutiny depending on the specific use case.",
+      "examples": [
+        "A developer using Gemma for prototyping a new feature.",
+        "A developer exploring Gemma's capabilities for potential integration into a project."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Version",
+      "subcategory": "Release Version",
+      "item": "v1.0.0",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The presence of a version number like 'v1.0.0' is common and generally expected in software development contexts. Since it's not explicitly prohibited in the developer role's rules, it's considered allowed. It might represent a released version of software.",
+      "examples": [
+        "Software releases displayed in changelogs",
+        "Version number shown on the application's 'About' page"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Frameworks & Libraries",
+      "item": "Electron",
+      "severity": "Low",
+      "score": 40,
+      "rationale": "Electron is a framework for building cross-platform desktop applications. Its presence in a screenshot doesn't inherently violate any rules for a developer, especially if the screenshot relates to application development or tooling. Absence from current rules simply means it hasn't been explicitly addressed, and given its common usage, it is permissible unless explicitly forbidden in future rule updates.",
+      "examples": [
+        "Developer is working on a cross-platform application using Electron.",
+        "Screenshot shows the Electron Builder configuration file."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "AI Tool",
+      "subcategory": "Large Language Model",
+      "item": "Gemini",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The screenshot containing \"Gemini\" doesn't violate any default developer rules. Developers are generally allowed to use AI tools for development, research or experimentation unless explicitly prohibited by specific company policies or project requirements. As there are no specified constraints in the current rules, Gemini is allowed for the developer in this context.",
+      "examples": [
+        "Using Gemini to generate code snippets.",
+        "Using Gemini to understand documentation."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "AI Model",
+      "subcategory": "Large Language Model",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item 'Gemma' (presumably referring to the Gemma AI model) is not explicitly prohibited by the developer role's rules. Absence of specific restriction implies allowance, especially if 'Gemma' is a general tool or library a developer might utilize. Severity is low because its impact is dependent on its implementation and use, and its absence from the rules doesn't automatically indicate a problem.",
+      "examples": [
+        "A developer using Gemma for code generation.",
+        "A developer using Gemma for natural language processing tasks within an application."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Programming Language",
+      "item": "Python",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Python is a widely used and versatile programming language. While not explicitly mentioned in the developer's rules, it is generally considered an acceptable tool for software development and data analysis tasks. Its absence from the rules doesn't automatically prohibit its use.",
+      "examples": [
+        "Using Python for scripting and automation.",
+        "Employing Python for data analysis and machine learning."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Developer Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Without specific rules prohibiting its use, and assuming it aids in development (monitoring screen output), it's generally allowed. However, the 'Pro' designation might imply a paid license, which could require procurement approval not covered by this analysis.",
+      "examples": [
+        "Debugging tools are allowed",
+        "Development IDEs are allowed"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Code Formatting",
+      "item": "Prettier",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Prettier is a code formatter. Standardized code formatting improves readability and maintainability. Its absence in current rules doesn't inherently prohibit it; rather, it indicates a lack of explicit standardization on formatting. Allowing it can enhance code quality.",
+      "examples": [
+        "Using Prettier to format JavaScript code before committing changes.",
+        "Configuring Prettier to enforce specific code style rules across the project."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Electron Framework",
+      "subcategory": "Inter-Process Communication",
+      "item": "ipcRenderer",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The `ipcRenderer` module is part of Electron's API and allows communication from the renderer process (typically the UI) to the main process. Developers working on Electron applications frequently use `ipcRenderer` to handle tasks that require privileged access or operate outside the UI's sandbox. Its use, while necessary, should be monitored as improper use can lead to security vulnerabilities.",
+      "examples": [
+        "Sending a message to the main process to open a file.",
+        "Receiving data updates from the main process to update the UI."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "Source Code",
+      "item": "src",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The term 'src' commonly refers to the 'source' directory or attribute, which is fundamental for developers. While the current rules don't explicitly mention 'src', access to and manipulation of source code is generally implicitly allowed for developers. Denying access to source code would severely hinder their ability to perform their duties.",
+      "examples": [
+        "Accessing the 'src' directory to modify code.",
+        "Setting the 'src' attribute of an image tag."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Files",
+      "subcategory": "CSS Files",
+      "item": "index.css",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Developers commonly work with CSS files for styling web applications. Absence from explicit rules doesn't imply prohibition, especially for standard file types.",
+      "examples": [
+        "style.css",
+        "main.css"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Framework",
+      "item": "Electron",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Electron is a framework used to build cross-platform desktop applications with web technologies. Its presence in a screenshot doesn't automatically imply any violation of rules, especially if not explicitly prohibited. Its use might be related to application development, which is generally allowed for developers.",
+      "examples": [
+        "Developer using Electron to build a desktop application.",
+        "Screenshot of an Electron application's interface."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Web Development",
+      "item": "HTML",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "HTML is a fundamental technology for web development. While not explicitly listed in the rules, it is generally understood that developers will work with HTML.",
+      "examples": [
+        "Creating website layouts",
+        "Implementing user interfaces"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "AI Model",
+      "subcategory": "Language Model",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The item 'Gemma' is a language model. Unless specifically prohibited, developers are generally allowed to use such tools for development purposes, research, or experimentation. The absence of a rule does not automatically imply prohibition.",
+      "examples": [
+        "Using Gemma to generate code snippets.",
+        "Employing Gemma for documentation generation."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Package Manager",
+      "item": "npm",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "npm is a widely used package manager for JavaScript, commonly used by developers for managing project dependencies. Its absence from the current rules doesn't imply prohibition, but rather a potential oversight. Developers generally need a package manager, and npm is a standard choice.",
+      "examples": [
+        "Installing project dependencies using `npm install`",
+        "Publishing a package to the npm registry"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "AI Tools",
+      "subcategory": "Use of Unauthorized AI Models",
+      "item": "gemini",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Without specific authorization, using Gemini (or other external AI models) by a developer could introduce security vulnerabilities, data leakage risks, and inconsistencies with approved tools and workflows. It violates the principle of using approved and vetted resources for development purposes.",
+      "examples": [
+        "Using Gemini to generate code without security review.",
+        "Sharing internal code with Gemini for analysis or debugging."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "Web Development",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.html is typically the main entry point for a website and a standard component in web development. Its presence doesn't inherently pose a security risk or violate common developer practices.",
+      "examples": [
+        "Basic website structure",
+        "Single Page Application (SPA)"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Development Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Without specific rules prohibiting it, and given its potential usefulness for development (debugging, testing on different resolutions), Screen Monitor Pro is considered allowed for developers. Assuming it assists in their tasks and doesn't violate security policies, it's permitted.",
+      "examples": [
+        "Using it to test website responsiveness across different screen sizes.",
+        "Using it to diagnose UI issues on specific monitor configurations."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Code Security",
+      "subcategory": "Dependency Management",
+      "item": "node_modules",
+      "severity": "High",
+      "score": 80,
+      "rationale": "The `node_modules` directory contains third-party code and should not be directly deployed or committed to version control in its entirety. It introduces significant security risks due to potentially outdated or vulnerable dependencies. Relying on package managers (npm, yarn, etc.) to install dependencies during deployment ensures consistent and secure builds. Committing `node_modules` bloats the repository size and can lead to conflicts and inconsistencies across environments.",
+      "examples": [
+        "Accidental inclusion of vulnerable packages leads to security breaches.",
+        "Repository size becomes excessively large due to the inclusion of unnecessary or duplicated packages."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Programming Language",
+      "item": "Python",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Python is a general-purpose programming language often used in software development. Its absence in the explicit rules doesn't automatically prohibit its use. It may be allowed or even encouraged depending on the project requirements and team skillset. Unless there is an explicit restriction against using Python for 'developer' roles, its use is generally permissible.",
+      "examples": [
+        "Developing backend services with Python and Django/Flask",
+        "Creating data analysis scripts using Python with Pandas and NumPy"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.js is a common entry point for JavaScript applications, and unless explicitly prohibited, developers should be allowed to work with it. Its absence from the rules implies permissiveness rather than restriction. Restricting this file would heavily affect any development of the web application.",
+      "examples": [
+        "Frontend application entry point",
+        "Backend application entry point"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "Source Code Management",
+      "item": "src",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The 'src' directory typically contains source code. Developers generally need access to source code. The absence of a specific rule doesn't prohibit standard development practices. The risk is low since developers inherently need access to source code to perform their duties.",
+      "examples": [
+        "Accessing source code to fix a bug",
+        "Reviewing source code to understand functionality"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Package Management",
+      "item": "npm",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "npm (Node Package Manager) is a widely used package manager for JavaScript and is essential for managing dependencies and building JavaScript-based applications. It's highly likely that a developer would need to use npm as part of their workflow.",
+      "examples": [
+        "Installing dependencies for a Node.js project",
+        "Publishing a JavaScript library to npm"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Web Development",
+      "item": "HTML",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "HTML is a fundamental technology for web development. Its absence in the current rules for a 'developer' role doesn't automatically prohibit it; it likely signifies an oversight or a broad scope. Its presence is generally expected for most developer roles.",
+      "examples": [
+        "Writing HTML templates",
+        "Debugging HTML structure",
+        "Integrating HTML with other technologies"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "AI Tools",
+      "subcategory": "Large Language Models",
+      "item": "Gemini",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Since 'Gemini' is not explicitly allowed and the context is 'developer', using potentially unapproved or unsupported AI tools for development could introduce inconsistencies, security vulnerabilities, or code quality issues. Without explicit permission, its use is prohibited to maintain a controlled and secure development environment.",
+      "examples": [
+        "Using Gemini to generate code without proper review.",
+        "Incorporating Gemini-generated documentation without verification."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Character Encoding",
+      "item": "UTF-8",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "UTF-8 is a ubiquitous character encoding standard used for representing text in a wide range of applications. Its presence in a screenshot does not inherently pose a security risk or violate typical developer rules. Developers commonly work with UTF-8 encoded data.",
+      "examples": [
+        "Source code files are commonly encoded in UTF-8",
+        "Websites typically use UTF-8 for displaying text"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Code Formatting",
+      "item": "Prettier",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Prettier is a code formatter that automatically formats code to ensure consistency. While not explicitly mentioned in the developer rules, it promotes code quality and readability, which are generally beneficial. Its absence from the rules doesn't automatically prohibit its use. The severity is low as it's not a security risk or likely to significantly disrupt operations.",
+      "examples": [
+        "Using Prettier to format Javascript code.",
+        "Configuring Prettier in VS Code."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "AI Model",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The item 'Gemma' (presumably referring to the Google Gemma model) is not explicitly prohibited by the current rules for the 'developer' role. In the absence of a specific restriction, and considering it is a general purpose AI model, its use is generally permissible. Severity is low as there is no indication it would negatively impact security or performance.",
+      "examples": [
+        "Using Gemma for code completion",
+        "Using Gemma for documentation generation"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "General",
+      "subcategory": "Unspecified",
+      "item": "Auto",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item 'Auto' is not explicitly prohibited by the 'developer' role rules. Its presence in a screenshot does not inherently pose a security risk or violate any known developer constraints unless further context suggests otherwise.",
+      "examples": [
+        "Auto-complete functionality in an IDE",
+        "Auto-save feature in a text editor"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Code Management",
+      "subcategory": "Dependencies",
+      "item": "node_modules",
+      "severity": "High",
+      "score": 80,
+      "rationale": "The `node_modules` directory typically contains a large number of dependencies, many of which are only required for development. Including it in a screenshot, especially one intended for distribution or sharing (e.g., a demo or example code), can expose internal dependencies, potentially revealing intellectual property or security vulnerabilities. Furthermore, its size makes it impractical to include in screenshots focused on specific functionality.",
+      "examples": [
+        "A screenshot showing a code example including the 'node_modules' folder, unnecessarily revealing internal dependencies.",
+        "A screenshot of a file directory structure showing a code repository and highlights a large 'node_modules' folder."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Programming Language",
+      "item": "Python",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Python is a widely used and versatile programming language. Its absence from the current rules doesn't inherently prohibit its use, especially for developers. Its appropriateness depends on the specific project and coding standards, but generally, it's a tool often allowed.",
+      "examples": [
+        "Writing scripts for automation",
+        "Developing web applications with frameworks like Django or Flask"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Productivity Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The item is not explicitly prohibited in the developer rules. Screen monitoring software could be useful for developers for debugging or testing purposes. While potential privacy concerns exist, without specific prohibition, it defaults to allowed.",
+      "examples": [
+        "Debugging application on multiple monitors",
+        "Testing application layout on different screen resolutions"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Web Development",
+      "subcategory": "HTML Files",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.html is the main entry point for a website. It is essential for web developers to have access to and be able to modify this file.",
+      "examples": [
+        "Modifying the title of the website",
+        "Adding or removing elements from the homepage"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "index.js is a common file name for the main entry point of a JavaScript application or module. It is generally expected that developers would be able to work with this type of file. The absence of a specific rule against it implies it is allowed.",
+      "examples": [
+        "Frontend application entry point",
+        "Backend server entry point"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software",
+      "subcategory": "Development Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Screen monitoring software could be useful for developers to debug issues, monitor application performance, or collaborate on projects. Since it's not explicitly prohibited, and could have legitimate uses, it is allowed, although its usefulness might be limited depending on the specific role and team practices.",
+      "examples": [
+        "Debugging UI issues on multiple monitors",
+        "Monitoring application rendering performance across different screen resolutions"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "Frontend",
+      "item": "index.css",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "CSS files are typically required for developers working on the frontend of a website. The absence of a specific rule doesn't prohibit its usage. It is likely that standard CSS files are implicitly allowed.",
+      "examples": [
+        "Custom website styling",
+        "Component-specific styling"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "AI Model",
+      "subcategory": "General Purpose AI",
+      "item": "Gemma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "The role 'developer' generally involves using and interacting with various AI models. Gemma, being a general-purpose AI model, does not inherently violate any restrictions unless explicitly prohibited. Since the rules do not mention or prohibit its use, it is considered allowed. The severity is low as it's just the presence of a model name, not its usage in a prohibited way.",
+      "examples": [
+        "Developer using Gemma for code generation.",
+        "Developer exploring Gemma's capabilities for project planning."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tool",
+      "subcategory": "Build Tool",
+      "item": "electron-forge",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "electron-forge is a popular build tool for Electron applications. Developers often use build tools to streamline the process of packaging and distributing Electron apps. Since it's not explicitly prohibited and commonly used, it's considered allowed with low severity as its impact depends on how it's used within the larger project and organization's security policies.",
+      "examples": [
+        "Using electron-forge to package an application for distribution.",
+        "Configuring electron-forge for code signing."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tool",
+      "subcategory": "ORM",
+      "item": "prisma",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Prisma is a popular ORM and database toolkit. The absence of a specific rule against it implies it's generally allowed, unless project-specific guidelines prohibit it. Assuming a default-allowed posture until otherwise restricted.",
+      "examples": [
+        "Using Prisma to interact with a PostgreSQL database.",
+        "Implementing data validation using Prisma Client."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Imagery",
+      "subcategory": "General",
+      "item": "starship",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item 'starship' is not explicitly prohibited by the developer role rules. Its presence in a screenshot is unlikely to pose a security risk or violate any coding standards. The severity is low as it is unlikely to cause any real issues.",
+      "examples": [
+        "A screenshot showing a game featuring starships.",
+        "A screenshot containing an unrelated image search result for 'starship'."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Libraries/Frameworks",
+      "item": "huggingface",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Hugging Face provides valuable tools and models for natural language processing (NLP). As a developer, especially one working with AI or machine learning, familiarity or usage of Hugging Face resources is generally considered acceptable and often encouraged. The lack of specific rules against it implies it is allowed, and its potential utility for NLP tasks further supports this.",
+      "examples": [
+        "Using Hugging Face Transformers library for text classification.",
+        "Employing Hugging Face models for sentiment analysis."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development Tools",
+      "subcategory": "Text Editors/IDEs",
+      "item": "nvim",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "nvim is a modern text editor that can be used for software development. The absence of a rule does not implicitly prohibit its use, and it falls under general developer tooling that is typically allowed unless explicitly restricted.",
+      "examples": [
+        "Using nvim to edit code",
+        "Using nvim to configure development environment"
+      ]
+    }
+  ]
+}

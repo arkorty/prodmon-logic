@@ -16,6 +16,7 @@ def debug_print(*args, **kwargs):
         print(*args, **kwargs)
 
 def parse_arguments():
+    """Parse command line arguments for the application"""
     parser = argparse.ArgumentParser(description="Analyze user behaviors for anomalies using Gemma3 or Gemini")
     parser.add_argument('--prohibited', required=False, help='Path to the prohibited activities CSV')
     parser.add_argument('--screenshots', required=False, help='Path to folder containing screenshots')

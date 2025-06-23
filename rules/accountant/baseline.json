@@ -1,0 +1,29 @@
+{
+  "allowed": [
+    {"broad": "Software", "narrow": "ERP", "keyword": "SAP", "severity": "High", "score": 95},
+    {"broad": "Software", "narrow": "Accounting", "keyword": "TallyPrime", "severity": "High", "score": 95},
+    {"broad": "Software", "narrow": "Accounting", "keyword": "QuickBooks", "severity": "High", "score": 90},
+    {"broad": "Software", "narrow": "Spreadsheet", "keyword": "Microsoft Excel", "severity": "High", "score": 98},
+    {"broad": "Software", "narrow": "Spreadsheet", "keyword": "Google Sheets", "severity": "High", "score": 90},
+    {"broad": "Software", "narrow": "Tax Filing", "keyword": "Income Tax Portal", "severity": "High", "score": 95},
+    {"broad": "Software", "narrow": "Auditing", "keyword": "Audit software (e.g., IDEA, ACL)", "severity": "High", "score": 90},
+    {"broad": "Software", "narrow": "Payroll", "keyword": "Payroll software (e.g., Zoho Payroll)", "severity": "High", "score": 85},
+    {"broad": "Communication", "narrow": "Email", "keyword": "Outlook", "severity": "High", "score": 95},
+    {"broad": "Communication", "narrow": "Collaboration", "keyword": "Microsoft Teams", "severity": "High", "score": 90},
+    {"broad": "Communication", "narrow": "Video Conferencing", "keyword": "Zoom", "severity": "Medium", "score": 80},
+    {"broad": "Documentation", "narrow": "Office Suite", "keyword": "Microsoft Word", "severity": "High", "score": 90},
+    {"broad": "Documentation", "narrow": "Office Suite", "keyword": "Google Docs", "severity": "High", "score": 85},
+    {"broad": "Documentation", "narrow": "Presentation", "keyword": "Microsoft PowerPoint", "severity": "Medium", "score": 75},
+    {"broad": "Documentation", "narrow": "File Management", "keyword": "SharePoint", "severity": "High", "score": 90},
+    {"broad": "Website", "narrow": "Banking", "keyword": "Corporate Banking Portals", "severity": "High", "score": 98},
+    {"broad": "Website", "narrow": "Regulatory", "keyword": "MCA Portal", "severity": "High", "score": 95},
+    {"broad": "Website", "narrow": "Regulatory", "keyword": "GST Portal", "severity": "High", "score": 95},
+    {"broad": "Tools", "narrow": "PDF Editor", "keyword": "Adobe Acrobat Pro", "severity": "High", "score": 90},
+    {"broad": "Tools", "narrow": "OCR Software", "keyword": "OCR for invoices", "severity": "Medium", "score": 70},
+    {"broad": "Workflow", "narrow": "Reporting", "keyword": "Financial reporting", "severity": "High", "score": 95},
+    {"broad": "Workflow", "narrow": "Reconciliation", "keyword": "Bank reconciliation", "severity": "High", "score": 95},
+    {"broad": "Workflow", "narrow": "Auditing", "keyword": "Internal audits", "severity": "High", "score": 90},
+    {"broad": "Workflow", "narrow": "Compliance", "keyword": "Tax compliance checks", "severity": "High", "score": 98}
+  ],
+  "prohibited": []
+}

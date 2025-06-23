@@ -1,0 +1,33 @@
+{
+  "allowed": [
+    {"broad": "Communication", "narrow": "Email", "keyword": "Outlook", "severity": "High", "score": 95},
+    {"broad": "Communication", "narrow": "Email", "keyword": "Gmail", "severity": "High", "score": 90},
+    {"broad": "Communication", "narrow": "Collaboration", "keyword": "Microsoft Teams", "severity": "High", "score": 90},
+    {"broad": "Communication", "narrow": "Collaboration", "keyword": "Slack", "severity": "High", "score": 85},
+    {"broad": "Communication", "narrow": "Video Conferencing", "keyword": "Zoom", "severity": "High", "score": 85},
+    {"broad": "Communication", "narrow": "Video Conferencing", "keyword": "Google Meet", "severity": "High", "score": 80},
+    {"broad": "Documentation", "narrow": "Office Suite", "keyword": "Microsoft Word", "severity": "High", "score": 95},
+    {"broad": "Documentation", "narrow": "Office Suite", "keyword": "Google Docs", "severity": "High", "score": 90},
+    {"broad": "Documentation", "narrow": "Spreadsheet", "keyword": "Microsoft Excel", "severity": "High", "score": 95},
+    {"broad": "Documentation", "narrow": "Spreadsheet", "keyword": "Google Sheets", "severity": "High", "score": 90},
+    {"broad": "Documentation", "narrow": "Presentation", "keyword": "Microsoft PowerPoint", "severity": "High", "score": 90},
+    {"broad": "Documentation", "narrow": "Presentation", "keyword": "Google Slides", "severity": "High", "score": 85},
+    {"broad": "Documentation", "narrow": "Note Taking", "keyword": "OneNote", "severity": "Medium", "score": 75},
+    {"broad": "Documentation", "narrow": "Note Taking", "keyword": "Evernote", "severity": "Medium", "score": 70},
+    {"broad": "Documentation", "narrow": "Project Management", "keyword": "Asana", "severity": "High", "score": 85},
+    {"broad": "Documentation", "narrow": "Project Management", "keyword": "Trello", "severity": "High", "score": 80},
+    {"broad": "Documentation", "narrow": "File Management", "keyword": "SharePoint", "severity": "High", "score": 90},
+    {"broad": "Documentation", "narrow": "File Management", "keyword": "Google Drive", "severity": "High", "score": 90},
+    {"broad": "Browser", "narrow": "General Browse", "keyword": "Company intranet", "severity": "High", "score": 95},
+    {"broad": "Browser", "narrow": "General Browse", "keyword": "News sites (work-relevant)", "severity": "Medium", "score": 60},
+    {"broad": "Browser", "narrow": "General Browse", "keyword": "Research websites", "severity": "High", "score": 85},
+    {"broad": "Tools", "narrow": "PDF Reader", "keyword": "Adobe Acrobat Reader", "severity": "High", "score": 90},
+    {"broad": "Tools", "narrow": "Calendar", "keyword": "Outlook Calendar", "severity": "High", "score": 95},
+    {"broad": "Tools", "narrow": "Calendar", "keyword": "Google Calendar", "severity": "High", "score": 90},
+    {"broad": "Workflow", "narrow": "Meeting", "keyword": "Attending meetings", "severity": "High", "score": 95},
+    {"broad": "Workflow", "narrow": "Scheduling", "keyword": "Scheduling appointments", "severity": "High", "score": 90},
+    {"broad": "Workflow", "narrow": "Document Creation", "keyword": "Creating reports", "severity": "High", "score": 90},
+    {"broad": "Workflow", "narrow": "Information Retrieval", "keyword": "Searching company knowledge base", "severity": "High", "score": 90}
+  ],
+  "prohibited": []
+}
