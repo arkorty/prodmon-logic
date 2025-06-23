@@ -1344,6 +1344,1482 @@
         "Using nvim to edit code",
         "Using nvim to configure development environment"
       ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Development Tools",
+      "item": "bun",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "Bun is a Javascript runtime, package manager, and bundler. Its presence in a screenshot doesn't inherently violate any typical development rules unless explicitly prohibited. Its usage may be restricted in specific projects but without project context, it is considered allowed.",
+      "examples": [
+        "Screenshot shows Bun being used to run a Javascript application.",
+        "Screenshot shows Bun being used to install npm packages."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Disclosure",
+      "subcategory": "PII/Sensitive Data",
+      "item": "Agent",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The term 'Agent' can refer to individuals with access to sensitive information or systems. Without specific rules defining allowed agent interactions or data handling, this could lead to unauthorized access or disclosure of sensitive information. This item should be considered prohibited due to potential privacy and security risks. ",
+      "examples": [
+        "Revealing internal contact lists.",
+        "Displaying system administrative roles."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Analysis",
+      "subcategory": "Screenshot Review",
+      "item": "screenshot analyses",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Without explicit permission, developers should not analyze screenshots as this could involve the unauthorized review of user data or proprietary information.",
+      "examples": [
+        "Analyzing screenshots to identify bugs or user behavior (without proper consent)",
+        "Extracting data from screenshots for competitive analysis"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Security",
+      "subcategory": "Data Leakage Prevention",
+      "item": "screenshot",
+      "severity": "High",
+      "score": 90,
+      "rationale": "Taking screenshots can potentially leak sensitive information, including code, credentials, and user data. Without explicit permission, this activity is generally prohibited to protect company data and user privacy.",
+      "examples": [
+        "Taking a screenshot of a code repository with sensitive API keys.",
+        "Capturing a screenshot of a user's personal information displayed on a system."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks & Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Electron, while a useful framework, may introduce security vulnerabilities or require specialized knowledge that is not covered by the current 'developer' role rules. Its use needs to be explicitly approved or aligned with security guidelines.",
+      "examples": [
+        "Unapproved use of Electron for a project",
+        "Attempting to introduce an Electron dependency without prior review"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Technology",
+      "subcategory": "Markup Language",
+      "item": "HTML",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "HTML is a fundamental technology for web development and is generally permissible for developers to view and work with. Its presence in a screenshot likely indicates its use in the project, which is expected.",
+      "examples": [
+        "HTML code snippet",
+        "Screenshot of a web page's structure"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Feature Restriction",
+      "item": "model selector",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The 'model selector' item is not explicitly allowed in the developer role's rules. Therefore, access is denied by default.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Handling",
+      "subcategory": "Information Disclosure",
+      "item": "screenshot analyses",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Analyzing screenshots could potentially reveal sensitive information or code snippets, violating data security principles. Without explicit permission or clear guidelines, this action is prohibited.",
+      "examples": [
+        "Analyzing the content of screenshots for internal information.",
+        "Extracting code snippets from screenshots for unauthorized use."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "UI/UX",
+      "subcategory": "Navigation",
+      "item": "sidebar",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Absence of 'sidebar' in developer role rules suggests restricted access or modification of UI elements. Potentially impacts user experience and application functionality.",
+      "examples": [
+        "Modifying sidebar content",
+        "Adding new elements to the sidebar"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Model Access",
+      "subcategory": "Model Configuration",
+      "item": "model selection",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The 'developer' role does not have explicit permission to select or modify the underlying models used, likely due to security, cost, or operational constraints. Unauthorized model selection could lead to unintended consequences or vulnerabilities.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Feature Control",
+      "subcategory": "Unknown Feature",
+      "item": "model-changed",
+      "severity": "High",
+      "score": 80,
+      "rationale": "The presence of an item not explicitly defined in the developer's allowed rule set indicates a potential unauthorized feature or modification. Without explicit permission, this could lead to unexpected behavior, security vulnerabilities, or violation of project standards.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Security",
+      "subcategory": "Data Leakage",
+      "item": "screenshot",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Screenshots can potentially contain sensitive information, including code, API keys, user data, or internal documentation, which if leaked could compromise security and privacy. Without explicit permission or guidelines on handling screenshots, it's considered a risk.",
+      "examples": [
+        "Screenshot of code with API keys",
+        "Screenshot of user data",
+        "Screenshot of internal documentation"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Security",
+      "subcategory": "Data Leakage",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The item 'Gemini' is not explicitly allowed in the context of a 'developer' role, suggesting a potential data leakage risk. Without specific rules, mentioning potentially sensitive information like a LLM model in screenshots could lead to unintended information disclosure.",
+      "examples": [
+        "Mentioning internal project names.",
+        "Sharing details about proprietary technology."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Security",
+      "subcategory": "Data Privacy",
+      "item": "Gemma",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The presence of 'Gemma' in a screenshot, when not explicitly allowed for a developer role, suggests potential exposure of sensitive information or proprietary data related to the 'Gemma' project/system. Without further context about the rules and the nature of 'Gemma', it's safer to classify it as prohibited to prevent unintended access or disclosure.",
+      "examples": [
+        "Accessing internal project names.",
+        "Sharing project related data."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "User Interface",
+      "item": "UI",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The developer role inherently involves working with the User Interface. The specific mention of 'UI' in a screenshot, without further context indicating a security risk or violation of other rules, is generally acceptable.",
+      "examples": [
+        "Screenshot showing the UI layout",
+        "Screenshot highlighting a UI element's functionality"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The item is not explicitly allowed and is likely a monitoring tool. Monitoring tools can be used to collect sensitive information and violate privacy, which poses a significant security risk.",
+      "examples": [
+        "Network Monitoring",
+        "System Activity Logging"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "File Access",
+      "subcategory": "HTML Files",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Access to index.html is generally allowed for developers as it often represents the main entry point of a web application and is necessary for development and testing. However, specific constraints might apply depending on the project's security model. The lack of explicit prohibition implies it's likely permissible.",
+      "examples": [
+        "Viewing the website's homepage",
+        "Debugging web application"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "AI/LLM Usage",
+      "subcategory": "Restricted AI Tools",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 95,
+      "rationale": "The item 'Gemini' is not explicitly mentioned in the allowed items for the 'developer' role, indicating it is prohibited. Use of specific AI tools like Gemini might be restricted due to security, compliance, or company policy concerns. Without explicit permission, usage is disallowed.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Security",
+      "subcategory": "Data Leakage",
+      "item": "screenshot",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Screenshots can inadvertently reveal sensitive information (code, API keys, personal data, etc.). Without specific rules allowing their use and proper redaction guidelines, they pose a significant risk. Developers should avoid creating, sharing, or storing screenshots unless explicitly permitted and following security protocols.",
+      "examples": [
+        "A screenshot of code containing an API key.",
+        "A screenshot of a database table with sensitive customer data."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "System Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The presence of a screen monitoring tool like 'Screen Monitor Pro' raises concerns about potential data privacy violations and unauthorized access to user information, especially in a developer role. Without explicit permission or clear justification for its use, it's safer to prohibit its use to protect user privacy and organizational security. While not inherently malicious, its functionality could be misused.",
+      "examples": [
+        "Unauthorized screen recording",
+        "Data exfiltration",
+        "Violation of privacy policies"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Handling",
+      "subcategory": "Data Analysis",
+      "item": "screenshot analysis",
+      "severity": "Medium",
+      "score": 65,
+      "rationale": "Analyzing screenshots of potentially sensitive data could lead to unintended data exposure or privacy violations if not explicitly allowed and controlled. Since the item is not listed as 'allowed', it's considered prohibited for developers.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "AI Models",
+      "subcategory": "Large Language Models",
+      "item": "Gemma",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The item 'Gemma' is a specific AI language model. If not explicitly allowed by the 'developer' role rules, its mention is prohibited as it might involve unauthorized access, discussion, or utilization of restricted AI tools.",
+      "examples": [
+        "Mentioning model details.",
+        "Discussing Gemma's capabilities."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "UI/UX",
+      "subcategory": "General",
+      "item": "UI",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item 'UI' (User Interface) is generally permissible for a developer, as it is a core component of software development. Its presence doesn't inherently violate any rules, though its specific implementation details might. Assuming a lack of negative constraints, it's allowed.",
+      "examples": [
+        "UI design discussions",
+        "UI element implementation",
+        "UI testing"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Access",
+      "subcategory": "Model Configuration",
+      "item": "model selection",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The 'developer' role does not have explicit permission for model selection, implying this action is restricted to a more privileged role to prevent unauthorized model manipulation or access to sensitive data. Uncontrolled model selection could lead to security vulnerabilities or unintended system behavior.",
+      "examples": [
+        "Selecting a different AI model",
+        "Changing the underlying algorithm for data processing"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks & Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Since the item 'Electron' is not explicitly allowed within the rules, and the role is 'developer', it is assumed to be disallowed until specifically permitted. Without further context on existing rules, the default assumption is that any undocumented software may pose security risks and is prohibited.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Without specific rules prohibiting it, a JavaScript file named 'index.js' is generally allowed for a developer role. It is a common and expected file name for entry points and components. The severity is low because its presence alone isn't inherently harmful.",
+      "examples": [
+        "Common project structure",
+        "Entry point for a React application"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "File Access",
+      "subcategory": "CSS Files",
+      "item": "index.css",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "As the item is not explicitly allowed in the current rules for the developer role, access to it is prohibited. Unrestricted access to CSS files can potentially lead to unwanted modifications and security vulnerabilities.",
+      "examples": [
+        "Unapproved style changes",
+        "Malicious code injection"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Security",
+      "subcategory": "AI/LLM Usage",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The item 'Gemini' is not explicitly allowed in the context of a 'developer' role according to the given information.  Access to and use of AI models like Gemini often require specific permissions and may pose security risks if not properly managed. Unauthorized use could lead to data leakage, misuse of the tool, or violation of company policies.",
+      "examples": [
+        "Using Gemini to write code without proper authorization",
+        "Sharing proprietary information with Gemini."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Design",
+      "subcategory": "UI/UX",
+      "item": "UI design",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Developers are typically responsible for implementing UI designs, not creating them. The 'UI design' item indicates a task or artifact primarily related to the design phase, which falls outside the typical scope of a developer's responsibilities. While they may interpret and execute designs, the creation and overall strategy is not usually their domain.",
+      "examples": [
+        "Creating mockups",
+        "Defining user interface elements"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks & Technologies",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "While not inherently malicious, the presence of 'Electron' suggests potential use of specific frameworks or technologies that might not be aligned with current development guidelines, security policies, or project scope. Without explicit allowance, it is prohibited.",
+      "examples": [
+        "Using Electron for building desktop applications.",
+        "Referring to Electron versions in documentation."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The presence of `index.js` itself doesn't inherently violate developer rules. It's a common and often necessary file in JavaScript projects. However, its use could be problematic depending on what it contains (e.g., sensitive keys), but that requires further context. Assuming the screenshot only shows its presence, it's not inherently prohibited.",
+      "examples": [
+        "A simple entry point for a web application.",
+        "A basic file serving as the main JavaScript file in a project."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Programming Languages",
+      "item": "Python",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Python' is not explicitly mentioned in the current rules for the 'developer' role, therefore, it is prohibited to avoid uncontrolled usage of technologies.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "File Access",
+      "subcategory": "HTML Files",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The absence of 'index.html' in the prohibited list, and the general expectation of a developer role to work with HTML files, implies it's permitted.  Access to this file is likely necessary for web development tasks.",
+      "examples": [
+        "Editing the homepage",
+        "Deploying a web application"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Handling",
+      "subcategory": "Data Analysis & Privacy",
+      "item": "screenshot analysis",
+      "severity": "Medium",
+      "score": 65,
+      "rationale": "Analyzing screenshots could potentially involve processing sensitive data or violating user privacy if the screenshots contain confidential information. Without explicit permission or a clear understanding of the analysis scope, it's safer to prohibit.",
+      "examples": [
+        "Analyzing screenshots of user interfaces for debugging purposes",
+        "Performing OCR on screenshots containing personal information"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Data Format",
+      "subcategory": "Serialization",
+      "item": "JSON",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "JSON is a standard data format and is generally permissible for a developer role as it facilitates data exchange and storage. The absence of a specific prohibition suggests it's allowed, though its use should be aligned with project requirements and security best practices.",
+      "examples": [
+        "Parsing JSON data",
+        "Serializing objects to JSON"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "High",
+      "score": 90,
+      "rationale": "Screen monitoring software can violate privacy and security policies, especially for developers. It can be used to capture sensitive information like code, credentials, and internal communications. Without explicit authorization, the use of such tools is generally prohibited.",
+      "examples": [
+        "Keylogging software",
+        "Screenshot capture tools without explicit permission"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Leakage",
+      "subcategory": "Model Name Disclosure",
+      "item": "Gemma",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Gemma' likely refers to a specific AI model. Its presence might reveal sensitive information about the project, like the use of a particular AI model that is not intended for public disclosure, or that it has been selected, or is being evaluated for use. Disclosure of this information may reveal development strategies or technology choices that could pose a security risk or give an unfair advantage to competitors.",
+      "examples": [
+        "Mentioning the specific AI model being used in a project.",
+        "Disclosing the evaluation results of different AI models."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "File Access",
+      "subcategory": "CSS Files",
+      "item": "index.css",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "As the item is not explicitly allowed by the current rules for the 'developer' role, access is implicitly prohibited. Developers should only be able to modify or access files specifically granted by policy. Unrestricted access could lead to unintended changes or security vulnerabilities.",
+      "examples": [
+        "Unauthorized modification of styling",
+        "Accidental deletion of important style definitions"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Access",
+      "subcategory": "Model Configuration",
+      "item": "model selection",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The 'developer' role does not have explicit permission to modify or select models, indicating a potential restriction on model access or configuration. This falls under data access control which is typically a high security concern.",
+      "examples": [
+        "Accessing a model configuration UI.",
+        "Changing the parameters of a production model."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The item 'Screen Monitor Pro' is a monitoring tool. The developer role typically has restrictions on using tools that could potentially monitor or access sensitive information on the system or other users' activities. Accessing and monitoring the screen content can lead to privacy violations. Without explicit permission or a defined process, it's generally prohibited.",
+      "examples": [
+        "Screen recording software",
+        "Keyloggers",
+        "Remote desktop viewers"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "System Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Screen Monitor Pro' is not explicitly allowed and likely provides system-level monitoring capabilities. Unless specifically required and approved, such tools are generally prohibited for developers due to potential security risks or interference with standard development environments.",
+      "examples": [
+        "Unauthorized screen activity monitoring",
+        "Potential data leakage"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Development Artifacts",
+      "subcategory": "Build Dependencies",
+      "item": "node_modules",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The `node_modules` directory contains dependencies used during development and build processes. It is generally prohibited from being included in screenshots for security and privacy reasons. Exposing this information reveals project dependencies, versions, and potential vulnerabilities. Also, this might contain sensitive information if developers haven't secured their configuration.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Scripting",
+      "subcategory": "Execution",
+      "item": "pythonScript",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The presence of a 'pythonScript' item, particularly in a screenshot, indicates potential for arbitrary code execution. This poses a severe security risk, as it could be used for malicious purposes like data exfiltration, system compromise, or denial of service. Without specific authorization or security measures in place, this should be strictly prohibited.",
+      "examples": [
+        "Malicious Python script being executed",
+        "Data theft via a Python script",
+        "System takeover through a Python backdoor"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Restricted Technologies",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Since 'Gemini' is not explicitly allowed for the 'developer' role and likely represents a specific technology or system, its usage is prohibited to maintain control and adherence to defined access rules. Unauthorized access to or use of specific technologies poses security and compliance risks.",
+      "examples": [
+        "Accessing Gemini without authorization",
+        "Mentioning Gemini in the context of development tasks"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "AI Model Access",
+      "subcategory": "Model Specific Restriction",
+      "item": "Gemma",
+      "severity": "High",
+      "score": 95,
+      "rationale": "The item 'Gemma' is present in the screenshot but not explicitly allowed by the 'developer' role's rules. Without specific allowance, access to this AI model is considered prohibited to protect against potential data leaks or misuse of restricted resources. This is a high severity because it potentially bypasses security protocols.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "User Interface",
+      "item": "UI",
+      "severity": "Low",
+      "score": 10,
+      "rationale": "UI is a fundamental aspect of software development and is generally permitted. The developer role likely requires interaction with the UI.",
+      "examples": [
+        "Designing UI elements",
+        "Debugging UI issues"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Software Development",
+      "subcategory": "Programming Languages",
+      "item": "JavaScript",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "JavaScript is a fundamental technology for web development and a common skill for developers. Its presence is expected and generally not restricted.",
+      "examples": [
+        "Using JavaScript for front-end development",
+        "Debugging JavaScript code"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Development Environment",
+      "subcategory": "Frameworks/Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Electron, while a popular framework for building cross-platform desktop applications, might be prohibited for a developer role if the current rules focus on specific technologies, prevent the introduction of unnecessary dependencies, or maintain a focus on web development. The screenshot shows its presence, indicating a potential deviation from existing rules.",
+      "examples": [
+        "Use of Electron in a web-focused project.",
+        "Introducing an unnecessary framework."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "File Access",
+      "subcategory": "HTML Files",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "As a developer, accessing and potentially modifying `index.html` is a common and usually necessary task for web development. Without specific restrictions in place, access to standard HTML files like index.html is generally permitted.",
+      "examples": [
+        "Viewing the website's homepage",
+        "Editing the website's content"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "File Access",
+      "subcategory": "Unspecified File",
+      "item": "index.css",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'index.css' is not explicitly allowed within the developer role's current rules. Accessing or modifying CSS files without explicit permission can potentially lead to unauthorized changes to the application's styling and could introduce vulnerabilities if improperly handled.  Further investigation is required to determine if the file should be accessible.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The presence of `index.js` alone does not inherently violate any security or policy rules. It's a common filename for entry points in JavaScript projects. Without further context, it is assumed to be allowed.",
+      "examples": [
+        "A simple JavaScript file is considered safe.",
+        "An `index.js` that imports external dependencies could still be allowed, but would need further scrutiny based on the dependency's nature."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Proprietary Information",
+      "subcategory": "Model Access",
+      "item": "Gemma",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The item 'Gemma' likely refers to a specific model, access to which may be restricted for developers. Without explicit permission or documented access rules, its mention is prohibited.",
+      "examples": [
+        "Mention of specific model names",
+        "Use of restricted APIs"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks/Tools",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Electron' is not explicitly allowed within the current scope. Without specific rules, it defaults to being prohibited as a security measure or policy restriction. This is a common practice to manage and control the tools and frameworks a developer uses.",
+      "examples": [
+        "Use of unauthorized frameworks.",
+        "Installation of unapproved software."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "UI/UX",
+      "subcategory": "General",
+      "item": "UI",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The term 'UI' is a common and acceptable term in software development and likely refers to the user interface, a fundamental aspect of a developer's work. Its absence from the rules suggests it's implicitly allowed as it's core to their role.",
+      "examples": [
+        "User Interface elements",
+        "UI design principles"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "System Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Screen monitoring software, even if seemingly innocuous, can be used for unauthorized data collection, privacy violations, and potential breaches of confidentiality. Developers typically should not have access to such tools unless explicitly authorized for specific security or performance testing purposes with strict oversight.",
+      "examples": [
+        "Keylogging software",
+        "Data exfiltration tools",
+        "Unauthorized access to user data"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "File Access",
+      "subcategory": "Web Development",
+      "item": "index.html",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Access to `index.html` is generally allowed for developers as it's a common entry point for web applications and often needs to be viewed or edited. Absence of explicit prohibition implies permission.",
+      "examples": [
+        "Viewing the homepage",
+        "Editing website content"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Handling",
+      "subcategory": "Data Privacy & Security",
+      "item": "screenshot analysis",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Analyzing screenshots, especially those potentially containing sensitive information, presents significant data privacy and security risks. Without explicit permission or defined handling procedures, it is prohibited for a developer.",
+      "examples": [
+        "Analyzing a screenshot of user data",
+        "Performing OCR on a screenshot containing confidential information"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "UI/UX",
+      "subcategory": "Navigation",
+      "item": "sidebar",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'sidebar' is not explicitly allowed in the current rules for the 'developer' role, thus it is considered prohibited. Its absence indicates a potential issue with the development process or user interface.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Feature Restrictions",
+      "item": "model selector",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The 'model selector' is not explicitly allowed in the current ruleset for the 'developer' role. Therefore, it is prohibited to prevent unauthorized access or modification of system models.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "Code",
+      "subcategory": "JavaScript",
+      "item": "index.js",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The absence of 'index.js' in the current rules for a 'developer' role suggests it's not explicitly prohibited, and its presence doesn't inherently violate security or policy. It is a very common file, and absence in rules likely means it's implicitly allowed, but there is low risk.",
+      "examples": [
+        "Creating a basic web application",
+        "Modifying a front-end JavaScript file"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Code Execution",
+      "subcategory": "Dependency Management",
+      "item": "native dependencies",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Native dependencies can introduce security vulnerabilities and platform-specific issues. They often bypass security controls and increase the attack surface. The developer role should generally be restricted from directly managing them without proper review.",
+      "examples": [
+        "Adding a .so or .dll library directly",
+        "Using JNI without proper vetting"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Development",
+      "subcategory": "Software Installation & Management",
+      "item": "package manager",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Package managers are fundamental tools for developers to install and manage software dependencies. While the specific allowed package managers might be constrained by project needs, the concept is generally allowed for a developer role.",
+      "examples": [
+        "apt-get",
+        "npm",
+        "pip",
+        "yum"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Feature Access",
+      "subcategory": "Model Configuration",
+      "item": "model selection",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The 'developer' role is explicitly restricted from accessing or modifying model selection, indicating a potential for unauthorized changes to core system functionality and data integrity. This falls under the domain of a more privileged role with oversight on these functionalities.",
+      "examples": [
+        "Selecting a different AI model.",
+        "Changing the parameters of an existing AI model."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "File Access",
+      "subcategory": "CSS Files",
+      "item": "index.css",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'index.css' is not explicitly allowed in the current rules for the role 'developer'. Accessing CSS files could potentially allow modifications to the application's styling, which could lead to visual issues or security vulnerabilities if not handled correctly.",
+      "examples": [
+        "Directly modifying CSS files",
+        "Importing a malicious CSS file"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Code Execution",
+      "subcategory": "Scripting",
+      "item": "pythonScript",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "Execution of arbitrary Python scripts poses a significant security risk. Without specific approval and proper sandboxing, it could lead to unauthorized access, data breaches, or system compromise. This is a high risk for developers who may inadvertently run malicious code or expose vulnerabilities.",
+      "examples": [
+        "Running a script that steals credentials.",
+        "Executing a script that installs malware.",
+        "A script that opens a reverse shell."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Video Content Creation",
+      "subcategory": "Platform Specific Tools",
+      "item": "YouTube Studio",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to YouTube Studio implies potential for creating and managing video content, which is outside the scope of general development tasks and requires specific content moderation and policy adherence which developers might not be trained on. Misuse could lead to policy violations.",
+      "examples": [
+        "Uploading videos",
+        "Editing video descriptions",
+        "Managing comments"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Development Tools",
+      "subcategory": "Build & Packaging",
+      "item": "electron-forge",
+      "severity": "Medium",
+      "score": 65,
+      "rationale": "The presence of 'electron-forge' suggests the developer is using a specific build tool. Without explicit allowance, the use of external build tools is generally prohibited to maintain control over the development environment and avoid potential vulnerabilities or conflicts within the existing infrastructure. Furthermore, unfamiliar tools may introduce operational overhead and require additional training or support.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Streaming Services",
+      "subcategory": "Music Streaming",
+      "item": "YouTube Music",
+      "severity": "Medium",
+      "score": 70,
+      "rationale": "The absence of YouTube Music in the developer role's rules suggests it's not explicitly permitted. Access to music streaming services is often restricted for developers to avoid distractions or conflicts with project-related tools and resources.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "System Access",
+      "subcategory": "Process Control",
+      "item": "pythonProcess",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Direct access to and control over processes, especially 'pythonProcess', represents a significant security risk. Without explicit authorization, a developer should not be allowed to run or interact with arbitrary processes, as it could be used to execute malicious code or disrupt system operations. The absence of this item in the developer's rule set makes it prohibited by default.",
+      "examples": [
+        "Running arbitrary Python scripts",
+        "Terminating critical system processes using Python",
+        "Modifying the behavior of existing python processes without explicit permission"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Communication",
+      "subcategory": "Social Media",
+      "item": "YouTube",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to YouTube can be a distraction and may expose the developer to irrelevant information. While not inherently malicious, it deviates from focused work and can be a time sink.",
+      "examples": [
+        "Streaming videos",
+        "Checking personal channels"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Protection",
+      "subcategory": "Information Leakage",
+      "item": "screenshot",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Screenshots can potentially reveal sensitive information or internal workings of the application or system that the developer shouldn't expose.",
+      "examples": [
+        "Screenshot of a user's account",
+        "Screenshot showing internal API keys"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Unspecified",
+      "subcategory": "Unspecified",
+      "item": "Gemini",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Gemini' is not explicitly allowed by the developer role's rules. Assuming a default of prohibition for unknown items.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "Web Browsers",
+      "item": "Chrome",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "While a web browser is generally necessary for developers, the absence of Chrome in the rules suggests it's either not explicitly permitted or there's a preference for a different browser to maintain consistency or control. Using an unapproved browser could lead to compatibility issues or security concerns.",
+      "examples": [
+        "Using Chrome for code reviews",
+        "Testing code in Chrome without prior approval"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Dependency Management",
+      "subcategory": "Node.js",
+      "item": "node_modules",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The 'node_modules' directory contains project dependencies. Developers should not be directly manipulating or committing the contents of 'node_modules' as it is managed by the package manager (e.g., npm, yarn). Committing this directory can lead to large repositories, conflicts, and inconsistencies between environments. Accessing/modifying 'node_modules' directly can also introduce security vulnerabilities if packages are not properly managed by the package manager.",
+      "examples": [
+        "Committing the entire 'node_modules' directory to version control.",
+        "Manually deleting or modifying files within 'node_modules'."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "UI Component",
+      "subcategory": "Input",
+      "item": "dropdown",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'dropdown' is not explicitly allowed in the developer role's ruleset.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media/Platform",
+      "subcategory": "Video Platform Management",
+      "item": "YouTube Studio",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Developers are typically restricted from interacting with content creation or management tools on social media platforms, focusing instead on technical aspects of the platform or related applications.",
+      "examples": [
+        "Accessing YouTube channel analytics",
+        "Uploading videos to YouTube"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "Platform Mentions",
+      "item": "@YouTube",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item is a social media handle, which might be prohibited depending on the specific development guidelines or policies for the role. Direct mentions of external platforms should be reviewed. ",
+      "examples": [
+        "@Twitter",
+        "@Facebook"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Communication",
+      "subcategory": "Social Media",
+      "item": "YouTube",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to YouTube can distract from development tasks and expose the user to potentially inappropriate content, depending on company policies and development needs. Without specific permission, it is generally restricted.",
+      "examples": [
+        "Viewing tutorials unrelated to work.",
+        "Watching entertainment videos."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Security",
+      "subcategory": "Data Leakage",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The presence of 'Gemini' in a screenshot, especially when it is not explicitly allowed, raises concerns about potential data leakage or unauthorized use of AI models. Access to AI models needs to be carefully controlled.",
+      "examples": [
+        "Unauthorized access to confidential information",
+        "Accidental disclosure of model details"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Unspecified Functionality",
+      "item": "Library",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Library' is present in the screenshot but not explicitly allowed for the 'developer' role. This suggests a potential access violation or a feature the developer role should not have access to. Without further context about the specific functionality of the 'Library' item, a cautious approach is taken, and it's classified as prohibited.",
+      "examples": [
+        "Accessing internal documentation libraries",
+        "Using unauthorized code libraries"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Unknown",
+      "subcategory": "Unknown",
+      "item": "X",
+      "severity": "High",
+      "score": 80,
+      "rationale": "The item 'X' is not explicitly allowed by the developer role's rules. Absence of allowance implies prohibition, especially when the nature of 'X' is unknown and could potentially violate security or other development guidelines. Defaulting to a prohibited status with high severity is a safety precaution.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks and Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Electron, while a useful framework, might be prohibited if the developer role has restrictions on using specific technologies, especially if they are not part of the approved technology stack. Absence in the current rules suggests it is unauthorized.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "Social Media Platform",
+      "item": "x.com (Twitter)",
+      "severity": "Medium",
+      "score": 70,
+      "rationale": "Developers are often restricted from accessing or sharing information from social media platforms like Twitter due to company policies regarding data security, intellectual property, and potential for distractions. The context of the screenshot and the 'developer' role suggest sensitive information may be involved, making social media access a potential risk.",
+      "examples": [
+        "Sharing confidential project details on Twitter",
+        "Discussing internal strategies on social media"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "General",
+      "item": "Twitter",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to social media platforms like Twitter is often restricted for developers to maintain focus and avoid distractions, particularly during critical development phases. Unless explicitly allowed, it's assumed prohibited.",
+      "examples": [
+        "Accessing Twitter during work hours",
+        "Posting on Twitter using company devices"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Entertainment",
+      "subcategory": "Streaming Services",
+      "item": "YouTube Music",
+      "severity": "Medium",
+      "score": 65,
+      "rationale": "While not explicitly prohibited, the item is outside of the scope of the developer role. Access to streaming services can be a distraction and is generally not required for development tasks.",
+      "examples": [
+        "Spotify",
+        "Netflix"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "System Utilities",
+      "item": "Screen Monitor Pro",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The presence of 'Pro' in the name suggests this is a professional-grade software, which might involve access to sensitive system information or functionalities not typically required for a standard developer role. Without explicit approval, it's safer to prohibit this software.",
+      "examples": [
+        "Software with administrative privileges",
+        "Tools that could potentially bypass security measures"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Communication",
+      "subcategory": "Email",
+      "item": "Gmail",
+      "severity": "High",
+      "score": 90,
+      "rationale": "Accessing personal email (Gmail) is generally prohibited for developers due to security and privacy concerns. It could expose sensitive company information or involve unauthorized communication.",
+      "examples": [
+        "Accessing personal email during work hours",
+        "Using personal email for company-related communication"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software/Applications",
+      "subcategory": "Web Browsers",
+      "item": "Chrome",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "While Chrome itself isn't inherently malicious, its presence on a developer's screen without explicit allowance suggests potential deviations from prescribed development environments or security protocols. Its use must be explicitly allowed to ensure compliance.",
+      "examples": [
+        "Accessing personal email",
+        "Browsing unrelated content during work hours"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Network",
+      "subcategory": "Network Misconfiguration",
+      "item": "locallost",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The term 'locallost' is likely a typo of 'localhost' or indicates an attempt to access a non-existent domain, which could indicate a configuration error or malicious activity. Accessing or interacting with this item is likely to cause issues.",
+      "examples": [
+        "Typo in a URL",
+        "Incorrect DNS configuration"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Unauthorized Feature Use",
+      "item": "Web Store",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The 'Web Store' item is not explicitly allowed in the developer role's rules. Accessing the Web Store could potentially allow the developer to make unauthorized changes, install extensions, or access sensitive information related to the platform's administration and user data.",
+      "examples": [
+        "Attempting to install a Chrome extension via the Web Store",
+        "Accessing the Web Store to change settings or configurations"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "External Websites/Services",
+      "subcategory": "Search Engines",
+      "item": "Google",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Accessing or displaying screenshots containing external services like Google can potentially lead to data leakage or unauthorized information gathering, depending on the context and the developer's specific responsibilities. Without explicit allowance, it's safer to consider it prohibited.",
+      "examples": [
+        "Accessing Google search results.",
+        "Displaying screenshots containing Google search queries or Google-related data."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Internet Usage",
+      "subcategory": "Social Media/Streaming",
+      "item": "youtube",
+      "severity": "Medium",
+      "score": 70,
+      "rationale": "Access to YouTube is generally restricted for developers to prevent distractions and ensure focused work on development tasks. Excessive use can negatively impact productivity.",
+      "examples": [
+        "Accessing personal YouTube accounts",
+        "Watching non-work-related videos"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Access Control",
+      "subcategory": "Restricted Information",
+      "item": "Gemini",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The item 'Gemini' is not explicitly allowed for the 'developer' role, suggesting it is a restricted or potentially sensitive item. Accessing information about it without explicit permission would be a security risk.",
+      "examples": [
+        "Accessing internal documentation about Gemini",
+        "Sharing screenshots of Gemini-related projects"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "AI/ML",
+      "subcategory": "Model Access/Usage",
+      "item": "Al Model",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Al Model' is present in a screenshot but not explicitly allowed. Access or usage of AI models often requires specific permissions and guidelines which are not documented in the developer role's rules. Without clarification, its use is considered prohibited.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "UI/UX",
+      "subcategory": "Navigation",
+      "item": "View",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'View' is not explicitly allowed in the developer role's rules, indicating it is likely restricted. Access to views often controls what a user can see and do, which may need to be controlled.",
+      "examples": [
+        "Access to a specific screen",
+        "Ability to see sensitive data"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Access",
+      "subcategory": "Search Engines",
+      "item": "Google Search",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Accessing external search engines is often restricted for developers to maintain focus, control data access, and prevent unauthorized information gathering.",
+      "examples": [
+        "Searching for sensitive company information",
+        "Using search results to bypass security protocols"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Hardware",
+      "subcategory": "Memory",
+      "item": "RAM",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Information about system hardware like RAM is often restricted for developers to prevent misuse or accidental modification of hardware configurations.  Access to this could potentially expose internal system details that are not intended for public use.",
+      "examples": [
+        "System memory details",
+        "RAM usage statistics"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "User Interface",
+      "subcategory": "Menu Item",
+      "item": "Edit",
+      "severity": "High",
+      "score": 90,
+      "rationale": "The 'Edit' function implies modification capabilities, which are not explicitly allowed for the 'developer' role based on the information provided. Unauthorized editing could lead to data corruption or unintended changes.",
+      "examples": [
+        "Deleting a file",
+        "Modifying configuration settings"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Operating System Interaction",
+      "subcategory": "Window Management",
+      "item": "Window",
+      "severity": "Medium",
+      "score": 70,
+      "rationale": "Developers generally should not have direct access to or control over the user's operating system's windowing system unless explicitly required for the application's functionality and approved. Unauthorized access can lead to privacy concerns, security vulnerabilities, and unexpected application behavior. The term 'Window' is too generic and could lead to unwanted actions like creating, closing or manipulating windows of other applications.",
+      "examples": [
+        "Accessing the window handle of another application",
+        "Manipulating the window position or size of a system process.",
+        "Creating a new window without proper permissions or user interaction."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "Monitoring Tools",
+      "item": "Screen Monitor Pro",
+      "severity": "High",
+      "score": 90,
+      "rationale": "Screen Monitor Pro likely allows for the monitoring of screen activity, which could violate privacy policies, data security protocols, and potentially track sensitive information. This poses a high risk for unauthorized data access and misuse, especially considering the developer role often has access to confidential project information and intellectual property.",
+      "examples": [
+        "Unauthorized data exfiltration",
+        "Violation of privacy regulations",
+        "Compromising intellectual property"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "System Information",
+      "subcategory": "Hardware",
+      "item": "cpu",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Revealing CPU information can expose details about the system's hardware configuration, potentially aiding in targeted attacks or reconnaissance. While not inherently critical, it provides information that can be used maliciously. Without explicit rules, it's safer to prohibit.",
+      "examples": [
+        "CPU Model: Intel Core i7-9700K",
+        "CPU usage at 80%"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "Video Sharing",
+      "item": "youtube",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to YouTube can be a significant distraction for developers, potentially hindering productivity. It can also introduce security risks if used for downloading software or accessing inappropriate content.",
+      "examples": [
+        "Accessing YouTube during work hours",
+        "Using YouTube to download tools or resources"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Unspecified",
+      "subcategory": "Unspecified",
+      "item": "Monkeytype",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "The item is not explicitly allowed in the rules for the 'developer' role.  Its inclusion suggests a potential use case not covered by existing documentation. Lacking specific context of its usage, it's flagged as potentially non-compliant.",
+      "examples": []
+    },
+    {
+      "type": "prohibited",
+      "category": "System Access",
+      "subcategory": "Monitoring Tools",
+      "item": "Monitoring",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The 'developer' role lacks explicit permission for system monitoring tools, suggesting a potential security risk if access is granted. Monitoring tools often provide access to sensitive system data and configurations.",
+      "examples": [
+        "Accessing server logs",
+        "Using performance monitoring dashboards"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Internet Usage",
+      "subcategory": "Social Media/Streaming",
+      "item": "youtube",
+      "severity": "Medium",
+      "score": 65,
+      "rationale": "Access to YouTube is generally restricted for developers to prevent distraction and ensure focus on work-related tasks. Unauthorized use can also lead to security risks.",
+      "examples": [
+        "Watching videos during work hours",
+        "Using YouTube for non-work related research"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Non-Work Related",
+      "subcategory": "Entertainment/Personal Use",
+      "item": "Monkeytype",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Monkeytype is a typing speed test and practice website. While not inherently malicious, its primary function is for personal entertainment and skill improvement, not directly related to developer work duties. Excessive use could lead to time being spent on non-work related activities.",
+      "examples": [
+        "Typing speed practice",
+        "Checking typing stats"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "Video Sharing",
+      "item": "YouTube",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to YouTube can be a distraction and potential time-waster for developers, hindering productivity. Unless explicitly allowed, it's generally prohibited to maintain focus on development tasks.",
+      "examples": [
+        "Watching tutorials on YouTube",
+        "Browsing unrelated video content"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Information Access",
+      "subcategory": "Search Engine Use",
+      "item": "Google Search",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Developers should ideally access information through approved channels. Direct use of external search engines, especially without context, could lead to the discovery of potentially sensitive information or unintended dependencies. This might violate data security or software development best practices.",
+      "examples": [
+        "Searching for API documentation on Google instead of using the official documentation site.",
+        "Using Google to troubleshoot code issues without first consulting internal resources or team members."
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "Productivity",
+      "subcategory": "Typing Practice",
+      "item": "monkeytype.com",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Monkeytype.com is a website for practicing typing skills, which can be beneficial for developers. While it's not strictly required, it can improve typing speed and accuracy, leading to increased productivity.  Unless there are specific restrictions against it (which aren't specified), it is generally allowed.  Low severity as it is not critical to development, nor likely to contain harmful content. ",
+      "examples": [
+        "Practicing typing speed",
+        "Improving code input efficiency"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software",
+      "subcategory": "System Utilities",
+      "item": "Screen Monitor Pro",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The developer role typically has restrictions on installing unauthorized software or tools to maintain system stability and security. Screen monitoring software could be used for data exfiltration or malicious activities, and is therefore often prohibited unless explicitly approved.",
+      "examples": [
+        "Spyware",
+        "Keyloggers"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks/Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Electron, while a legitimate framework, could introduce security vulnerabilities if not properly managed by a developer. Its usage needs explicit approval or alignment with organizational security guidelines.",
+      "examples": [
+        "Using Electron without a vulnerability assessment.",
+        "Deploying Electron apps without proper code review."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Access",
+      "subcategory": "System Files",
+      "item": "File",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "Accessing 'File' operations, especially from a screenshot, suggests a potential for unauthorized data access, modification, or exfiltration. Without explicit permissions, a developer should not interact with system files.",
+      "examples": [
+        "Opening files",
+        "Saving files",
+        "Deleting files"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Access",
+      "subcategory": "Information Disclosure",
+      "item": "Activity",
+      "severity": "High",
+      "score": 85,
+      "rationale": "The 'Activity' item, suggesting access to user actions or system logs, is not explicitly allowed for the 'developer' role, implying potential unauthorized access to sensitive data. This could lead to data breaches or privacy violations.",
+      "examples": [
+        "Viewing user login history",
+        "Accessing application error logs",
+        "Monitoring user actions within the system"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Technology",
+      "subcategory": "AI/LLM",
+      "item": "Gemini",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The item 'Gemini' is a specific AI model. Without explicit permission, discussion of specific AI models within a developer context is often prohibited to avoid unintended disclosure of proprietary information, violate NDAs, or to prevent the accidental promotion of a competitor.",
+      "examples": [
+        "Mentioning specific AI models in internal documentation",
+        "Discussing capabilities of Gemini in public forums"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Data Privacy",
+      "subcategory": "Data Leakage",
+      "item": "Screenshots",
+      "severity": "High",
+      "score": 85,
+      "rationale": "Screenshots can potentially contain sensitive information that the developer role is not authorized to access or share. This could include user data, internal communications, or proprietary code, violating data privacy and security policies. Taking screenshots may also violate company policy or legal regulations such as GDPR.",
+      "examples": [
+        "Taking screenshots of user data.",
+        "Sharing screenshots containing internal API keys."
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Security",
+      "subcategory": "Anomaly Detection",
+      "item": "Anomaly Detected",
+      "severity": "Critical",
+      "score": 95,
+      "rationale": "The item 'Anomaly Detected' indicates a potential security breach or system malfunction. As it is not explicitly allowed for the 'developer' role, and given the inherent risk, it is considered prohibited to prevent unauthorized access or modification.",
+      "examples": [
+        "Unusual system activity detected",
+        "Potential security threat identified"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Software Development",
+      "subcategory": "Frameworks/Libraries",
+      "item": "Electron",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Electron, while a valid technology, might be outside the approved technology stack for this developer role, or could introduce security/performance concerns if not managed correctly. Without explicit allowance, it is considered prohibited.",
+      "examples": [
+        "Using an unapproved UI framework",
+        "Developing a desktop application without authorization"
+      ]
     }
   ]
 }

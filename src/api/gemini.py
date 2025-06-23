@@ -1,5 +1,6 @@
 import os
 import json
+from time import sleep
 import google.generativeai as genai
 from typing import Dict, Optional, List
 import csv
@@ -14,7 +15,7 @@ from utils.learn import load_merged_rules
 class GeminiAPI:
     """Class to handle interactions with the Google Gemini API"""
     
-    def __init__(self, model_name: str = "gemini-2.0-flash"):
+    def __init__(self, model_name: str = "gemini-2.0-flash-lite"):
         self.model_name = model_name
         # Load environment variables from .env file
         env_path = Path(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) / '.env'
@@ -40,6 +41,7 @@ class GeminiAPI:
     def analyze_text(self, prompt: str) -> Dict:
         """Call the Gemini API and parse the response as JSON"""
         response_text = self.generate_content(prompt)
+        sleep(1000)  # Sleep to avoid rate limiting issues
         return self._extract_json_from_response(response_text)
     
     def _extract_json_from_response(self, response: str) -> Dict:

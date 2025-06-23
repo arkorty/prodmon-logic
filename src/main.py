@@ -78,9 +78,6 @@ def main():
             result = process_single_screenshot(args.single, args.pre_processor)
         else:
             result = process_screenshots_folder(args.screenshots, args.pre_processor)
-        
-        # Output results
-        save_output(result, args.output)
 
         debug_print(f"[LEARN] Result: {result}")
 
@@ -131,6 +128,14 @@ def main():
             rule, updated_path = learn_unknown(unknown, role=role, company=company)
             debug_print(f"[LEARN] Rule added to {updated_path}: {rule}")
         # --- END LEARNING SYSTEM ---
+        
+        if args.single:
+            result = process_single_mode(args, detector=detector)
+        else:
+            result = process_folder_mode(args, detector=detector)
+        
+        # Output results
+        save_output(result, args.output)
         
     except Exception as e:
         print(f"Error processing screenshot(s): {str(e)}")
