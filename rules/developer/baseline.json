@@ -2820,6 +2820,106 @@
         "Using an unapproved UI framework",
         "Developing a desktop application without authorization"
       ]
+    },
+    {
+      "type": "allowed",
+      "category": "External Resources",
+      "subcategory": "Video Streaming",
+      "item": "www.youtube.com",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Unless explicitly prohibited, access to general-purpose websites like YouTube is typically allowed for developers, though content should be evaluated for relevance and potential security risks. Lack of explicit prohibition implies allowance. Access to YouTube does not inherently pose significant security risks in this context. However, its use should be considered for its relevance to developer activities. The likelihood of harm from YouTube is relatively low.",
+      "examples": [
+        "Viewing tutorials",
+        "Researching solutions"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Social Media",
+      "subcategory": "General Use",
+      "item": "www.instagram.com",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "Access to social media platforms like Instagram can be a distraction and potentially lead to misuse of company resources. Without specific allowance, it is considered prohibited for developers during work hours.",
+      "examples": [
+        "Accessing Instagram during work hours",
+        "Sharing company information on Instagram"
+      ]
+    },
+    {
+      "type": "allowed",
+      "category": "External Website Access",
+      "subcategory": "Search Engine",
+      "item": "www.google.com",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "Access to Google, a widely used search engine, is generally permissible for developers for research, documentation, and general information gathering. However, excessive or unsupervised use should be monitored.",
+      "examples": [
+        "Searching for API documentation",
+        "Looking up code examples",
+        "Troubleshooting technical issues"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "System Access",
+      "subcategory": "Extension Management",
+      "item": "chrome://extensions/",
+      "severity": "High",
+      "score": 90,
+      "rationale": "Accessing chrome:// extensions allows modification of installed extensions, including potentially disabling security features or installing malicious ones. Developers should not have unrestricted access to extension management in a production environment.",
+      "examples": [
+        "Disabling security extensions",
+        "Installing unauthorized extensions",
+        "Modifying extension permissions"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Development Tools",
+      "subcategory": "Build Systems/Package Managers",
+      "item": "electron-forge",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The presence of 'electron-forge' suggests involvement in Electron application development. While not inherently malicious, its use by a developer is not explicitly allowed by the absence of its mention in the developer role's rules, and it presents a possible risk by adding dependencies and increasing the complexity of the project without specific authorization.",
+      "examples": []
+    },
+    {
+      "type": "allowed",
+      "category": "Development Environment",
+      "subcategory": "Virtual Environments",
+      "item": "venv",
+      "severity": "Low",
+      "score": 20,
+      "rationale": "venv is a standard Python tool for creating isolated environments, which is generally considered good practice for developers to manage dependencies and avoid conflicts. While not inherently harmful, its presence should be documented for context. It is more of a development best practice than a security risk.",
+      "examples": [
+        "Creating a virtual environment for a project",
+        "Activating a virtual environment"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "File Access",
+      "subcategory": "CSS File",
+      "item": "index.css",
+      "severity": "Medium",
+      "score": 60,
+      "rationale": "The presence of 'index.css' in a screenshot suggests the developer role may be unintentionally accessing or modifying files they are not authorized to.  Without explicit allowance in the developer rules, access is prohibited to maintain code integrity and prevent accidental modifications.",
+      "examples": [
+        "Accessing production CSS files",
+        "Modifying styling that impacts other parts of the application"
+      ]
+    },
+    {
+      "type": "prohibited",
+      "category": "Documentation",
+      "subcategory": "Unspecified",
+      "item": "README.txt",
+      "severity": "Low",
+      "score": 30,
+      "rationale": "While not explicitly prohibited, the absence of 'README.txt' in the developer role rules suggests it's not a core deliverable or a controlled document. Viewing or accessing it without explicit authorization could indicate a deviation from established procedures, and potentially expose internal information or documentation that the developer is not yet permitted access to.",
+      "examples": []
     }
   ]
 }
